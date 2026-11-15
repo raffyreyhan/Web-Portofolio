@@ -75,6 +75,27 @@
   if (PROFILE.github) heroLinks.appendChild(link("GitHub", PROFILE.github));
   if (PROFILE.linkedin) heroLinks.appendChild(link("LinkedIn", PROFILE.linkedin));
 
+  // Foto profil: pakai PROFILE.photo, atau default files/images/profile.jpg.
+  // Jika file foto belum ada, tampilkan inisial nama sebagai pengganti.
+  const photoWrap = $("photoWrap");
+  const initials = PROFILE.name
+    .split(/\s+/).filter(Boolean).slice(0, 2)
+    .map((w) => w[0].toUpperCase()).join("");
+  function showInitials() {
+    photoWrap.textContent = "";
+    photoWrap.appendChild(el("div", "photo-fallback", initials));
+  }
+  const photoSrc = PROFILE.photo === undefined ? "files/images/profile.jpg" : PROFILE.photo;
+  if (photoSrc) {
+    const img = el("img", "photo");
+    img.alt = "Foto " + PROFILE.name;
+    img.addEventListener("error", showInitials);
+    img.src = photoSrc;
+    photoWrap.appendChild(img);
+  } else {
+    showInitials();
+  }
+
   // Alur belajar
   const journey = $("journey");
   MODULES.forEach((m, i) => {
