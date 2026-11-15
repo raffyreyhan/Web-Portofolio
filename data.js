@@ -8,6 +8,7 @@ const PROFILE = {
   name: "Raffy Reyhan Ramadhana",
   role: "Data Analyst · Data Scientist",
   tagline: "Electrical Engineer transitioning into Data Analysis and Machine Learning, turning industrial data into decisions.",
+  photo: "files/B9.jpg",
   about:
     "Electrical Engineering graduate transitioning into data. I combine a background in industrial instrumentation and manufacturing with practical skills in Python, Data Analysis, and Machine Learning to turn data into actionable insights. ",
 
