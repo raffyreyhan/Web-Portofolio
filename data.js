@@ -5,24 +5,21 @@
    ===================================================================== */
 
 const PROFILE = {
-  name: "Nama Lengkap Anda",
-  role: "Calon Data Analyst · Data Scientist",
-  tagline: "Saya belajar mengubah data menjadi insight dan model yang berguna.",
+  name: "Raffy Reyhan Ramadhana",
+  role: "Data Analyst · Data Scientist",
+  tagline: "Electrical Engineer transitioning into Data Analysis and Machine Learning, turning industrial data into decisions.",
   about:
-    "Halo! Saya sedang membangun karier di bidang data. Saya telah menyelesaikan " +
-    "tiga modul pembelajaran: Python Fundamental, Data Analysis, dan Machine Learning. " +
-    "Di halaman ini saya mengumpulkan kode, notebook, dan presentasi dari proses belajar tersebut.",
+    "Electrical Engineering graduate transitioning into data. I combine a background in industrial instrumentation and manufacturing with practical skills in Python, Data Analysis, and Machine Learning to turn data into actionable insights. ",
 
   // --- Kontak (kosongkan dengan "" jika tidak ingin ditampilkan) ---
-  github:   "https://github.com/USERNAME_GITHUB_ANDA",
-  linkedin: "https://www.linkedin.com/in/USERNAME_LINKEDIN_ANDA",
-  email:    "emailanda@gmail.com",
-  phone:    "0812-3456-7890",
-  whatsapp: "6281234567890",   // nomor tanpa +, tanpa spasi, diawali 62 (untuk tombol WhatsApp)
+  github:   "https://github.com/raffyreyhan",
+  linkedin: "https://www.linkedin.com/in/www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
+  email:    "raffyreyhan2902@gmail.com",
+  phone:    "-",
 
   // --- Lokasi repository GitHub tempat situs ini disimpan ---
   // Format: "USERNAME/NAMA_REPO". Dipakai untuk membuat tombol "Lihat di GitHub".
-  repo: "USERNAME_GITHUB_ANDA/portfolio",
+  repo: "raffyreyhan/Web-Portofolio",
   branch: "main"
 };
 
