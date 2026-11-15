@@ -15,7 +15,7 @@ const PROFILE = {
   github:   "https://github.com/raffyreyhan",
   linkedin: "https:/www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
   email:    "raffyreyhan2902@gmail.com",
-  phone:    "-",
+  phone:    "",
 
   // --- Lokasi repository GitHub tempat situs ini disimpan ---
   // Format: "USERNAME/NAMA_REPO". Dipakai untuk membuat tombol "Lihat di GitHub".
