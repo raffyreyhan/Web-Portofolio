@@ -13,7 +13,7 @@ const PROFILE = {
 
   // --- Kontak (kosongkan dengan "" jika tidak ingin ditampilkan) ---
   github:   "https://github.com/raffyreyhan",
-  linkedin: "https://www.linkedin.com/in/www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
+  linkedin: "https:/www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
   email:    "raffyreyhan2902@gmail.com",
   phone:    "-",
 
