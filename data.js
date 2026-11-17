@@ -10,27 +10,24 @@ const PROFILE = {
   tagline: "Electrical Engineer transitioning into Data Analysis and Machine Learning, turning industrial data into decisions.",
   photo: "files/B9.jpg",
   about:
-    "Electrical Engineering graduate transitioning into data. I combine a background in industrial instrumentation and manufacturing with practical skills in Python, Data Analysis, and Machine Learning to turn data into actionable insights. ",
+    "Electrical Engineering graduate transitioning into data. I combine a background in industrial " +
+    "instrumentation and manufacturing with practical skills in Python, Data Analysis, and Machine Learning " +
+    "to turn data into actionable insights.",
 
   // --- Kontak (kosongkan dengan "" jika tidak ingin ditampilkan) ---
   github:   "https://github.com/raffyreyhan",
-  linkedin: "https:/www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
+  linkedin: "https://www.linkedin.com/in/raffy-reyhan-ramadhana-724070364",
   email:    "raffyreyhan2902@gmail.com",
   phone:    "",
+  whatsapp: "",
 
   // --- Lokasi repository GitHub tempat situs ini disimpan ---
-  // Format: "USERNAME/NAMA_REPO". Dipakai untuk membuat tombol "Lihat di GitHub".
   repo: "raffyreyhan/Web-Portofolio",
   branch: "main"
 };
 
 /* =====================================================================
    MODUL & PROYEK
-   Setiap file diberi "path" = lokasi file di dalam folder situs ini.
-   Jenis file dikenali otomatis dari akhiran:
-     .py    -> tombol "Lihat Kode"
-     .ipynb -> tombol "Buka Notebook"
-     .pptx  -> tombol "Lihat Slide" + "Unduh"
    ===================================================================== */
 const MODULES = [
   {
